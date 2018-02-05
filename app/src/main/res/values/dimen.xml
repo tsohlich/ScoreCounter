@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="teamNameTextViews">30sp</dimen>
+    <dimen name="scoreTextViews">56sp</dimen>
+    <dimen name="paddingTeamName">16dp</dimen>
+    <dimen name="paddingBottom">6dp</dimen>
+    <dimen name="marginButtons1">8dp</dimen>
+    <dimen name="penaltiesTextSize">17sp</dimen>
+    <dimen name="penaltiesPaddingLeft">4dp</dimen>
+    <dimen name="penaltiesPaddingRight">35dp</dimen>
+    <dimen name="textSizeGoalButton">22sp</dimen>
+    <dimen name="textSizePenaltyButton">22sp</dimen>
+
+
+
+</resources>
+
+
+
