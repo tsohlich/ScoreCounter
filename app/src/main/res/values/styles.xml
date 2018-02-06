@@ -7,4 +7,98 @@
         <item name="colorButtonNormal">#1B5E20</item>
 
     </style>
+
+    <style name="team_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/teamNameColor</item>
+        <item name="android:textSize">@dimen/teamNameTextViews</item>
+    </style>
+
+    <style name="score">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingBottom">@dimen/paddingBottom</item>
+        <item name="android:text">@string/defaultScore</item>
+        <item name="android:textColor">@color/scoreColor</item>
+        <item name="android:textSize">@dimen/scoreTextViews</item>
+    </style>
+
+    <style name="penalties">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:paddingLeft">@dimen/penaltiesPaddingLeft</item>
+        <item name="android:paddingRight">@dimen/penaltiesPaddingRight</item>
+        <item name="android:text">@string/penaltiesTeamA</item>
+        <item name="android:textSize">@dimen/penaltiesTextSize</item>
+    </style>
+
+    <style name="goal_btn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/marginButtons1</item>
+        <item name="android:layout_marginRight">@dimen/marginButtons1</item>
+        <item name="android:text">@string/button1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/textSizeGoalButton</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="penalty_btn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/marginButtons1</item>
+        <item name="android:layout_marginRight">@dimen/marginButtons1</item>
+        <item name="android:text">@string/button2</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/textSizePenaltyButton</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="reset_btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/main_layout</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:text">@string/resetButton</item>
+    </style>
+
+    <style name="main_view">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:background">@color/scoreColor</item>
+    </style>
+
+    <style name="team_layout">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="main_linear_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="main_relative_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="main_scroll_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/pitch</item>
+    </style>
 </resources>

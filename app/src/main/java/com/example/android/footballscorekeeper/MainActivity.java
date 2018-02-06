@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * Saves scores if screen rewritten
-     *
      */
     @Override
     public void onRestoreInstanceState(Bundle savedInstanceState) {
@@ -40,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         super.onRestoreInstanceState(savedInstanceState);
 
         goalsTeamA = savedInstanceState.getInt("GOALS_TEAM_A");
-        goalsTeamB = savedInstanceState.getInt ("GOALS_TEAM_B");
+        goalsTeamB = savedInstanceState.getInt("GOALS_TEAM_B");
         penaltiesTeamA = savedInstanceState.getInt("penalties_TEAM_A");
         penaltiesTeamB = savedInstanceState.getInt("penalties_TEAM_B");
         displaygoalTeamA(goalsTeamA);

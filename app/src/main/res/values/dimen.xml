@@ -10,9 +10,6 @@
     <dimen name="penaltiesPaddingRight">35dp</dimen>
     <dimen name="textSizeGoalButton">22sp</dimen>
     <dimen name="textSizePenaltyButton">22sp</dimen>
-
-
-
 </resources>
 
 

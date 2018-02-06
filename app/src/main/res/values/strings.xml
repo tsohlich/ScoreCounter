@@ -9,4 +9,5 @@
     <string name="penaltiesTeamA">Penalties: 0</string>
     <string name="penaltiesTeamB">Penalties: 0</string>
     <string name="penalties">Penalties:</string>
+    <string name="defaultScore">0</string>
 </resources>
